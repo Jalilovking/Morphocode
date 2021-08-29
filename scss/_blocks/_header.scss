@@ -1,0 +1,30 @@
+.header {
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__list {
+        display: flex;
+    }
+    &__item {
+        margin-right: 22px;
+        &:nth-child(2) {
+            margin-right: 17px;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        display: inline-block;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.25px;
+        text-transform: capitalize;
+        color: rgba(102, 102, 102, 0.85);
+        &:hover {
+            color: #000;
+        }
+    }
+}

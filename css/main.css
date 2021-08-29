@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sailec", "Arial", sans-serif;
+  color: #939CAA;
+}
+
+p {
+  font-family: "Titillium Web", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1080px;
+  max-width: 100%;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__item {
+  margin-right: 22px;
+}
+
+.header__item:nth-child(2) {
+  margin-right: 17px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  color: rgba(102, 102, 102, 0.85);
+}
+
+.header__link:hover {
+  color: #000;
+}
+/*# sourceMappingURL=main.css.map */
