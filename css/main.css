@@ -78,4 +78,49 @@ img {
 .header__link:hover {
   color: #000;
 }
+
+.intro__container {
+  width: 1440px;
+  max-width: 100%;
+}
+
+.intro__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 175px;
+  padding-right: 120px;
+}
+
+.intro__info {
+  width: 545px;
+  max-width: 100%;
+  padding: 77px 8px 0 15px;
+}
+
+.intro__city {
+  width: 545px;
+}
+
+.intro__title {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.25px;
+  color: #4A4A4A;
+  margin-bottom: 20px;
+}
+
+.intro__text {
+  width: 512px;
+  max-width: 100%;
+  font-size: 18px;
+  line-height: 30px;
+  color: #434A54;
+}
 /*# sourceMappingURL=main.css.map */

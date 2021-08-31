@@ -1,0 +1,35 @@
+.intro {
+    &__container {
+        width: 1440px;
+        max-width: 100%;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 175px;
+        padding-right: 120px;
+    }
+    &__info {
+        width: 545px;
+        max-width: 100%;
+        padding: 77px 8px 0 15px;
+    }
+    &__city {
+        width: 545px;
+    }
+    &__title {
+        font-size: 48px;
+        line-height: 58px;
+        letter-spacing: 0.25px;
+        color: #4A4A4A;
+        margin-bottom: 20px;
+    }
+    &__text {
+        width: 512px;
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+        color: #434A54;
+    }
+}
