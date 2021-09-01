@@ -1,0 +1,87 @@
+.footer {
+    padding: 50px 0;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0 15px 51px;
+    }
+    &__item {
+        width: 240px;
+        max-width: 100%;
+        padding-top: 4px;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        color: #4A4A4A;
+        margin-bottom: 15px;
+    }
+    &__link {
+        font-family: "Titillium Web", "Arial", sans-serif ;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.25px;
+        color: #637280;
+        &:hover {
+            color: black;
+        }
+    }
+    &__academy {
+        &--item {
+            margin-bottom: 8px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__works {
+        &--item {
+            margin-bottom: 8px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__blog {
+        &--item {
+            margin-bottom: 8px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__know {
+        &--item {
+            margin-bottom: 8px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &--hr {
+            width: 30px;
+            height: 3px;
+            background: rgba(0, 0, 0, 0.1);
+            border: none;
+            margin: 21px 0 17px;
+        }
+    }
+    &__icon {
+        &--list {
+            display: flex;
+            align-items: center;
+        }
+        &--item {
+            margin-right: 9px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &--img:hover {
+            opacity: 0.8;
+        }
+    }
+}
