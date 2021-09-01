@@ -1,0 +1,60 @@
+.learning {
+    background: #EEEEEE;
+    padding: 30px 0;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px 53px;
+    }
+    &__title {
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.25px;
+        color: #4A4A4A;
+        margin-top: 49px;
+        margin-bottom: 18px;
+    }
+    &__text {
+        width: 463px;
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+        color: #434A54;
+    }
+    &__form {
+        margin-bottom: 21px;
+    }
+    &__input {
+        font-family: "Titillium Web", "Arial", sans-serif ;
+        width: 299px;
+        height: 42px;
+        border: 2px solid #979797;
+        padding: 22px 0 22px 7px;
+        font-size: 18px;
+        line-height: 44px;
+        letter-spacing: 0.25px;
+        margin-right: -5px;
+        border-radius: 4px 0px 0px 4px;
+        &::placeholder {
+            font-family: "Titillium Web", "Arial", sans-serif ;
+            color: #979797;
+        }
+    }
+    &__button {
+        display: inline-block;
+        font-family: "Titillium Web", "Arial", sans-serif ;
+        font-size: 18px;
+        line-height: 44px;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+        padding: 1px 22px 1px 23px;
+        background: #1D6FF3;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        border-radius: 0px 4px 4px 0px;
+        cursor: pointer;
+        &:hover {
+            background: rgba(29, 111, 243, 0.8);
+        }
+    }
+}
